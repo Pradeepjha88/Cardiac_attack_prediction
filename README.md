@@ -2,8 +2,6 @@ Machine Learning Engineering Capstone Proposal
 
 # Heart Disease Prediction: Saving lives using Machine Learning
 
-by Sparsh Srivastava
-
 ## A) Domain Background: Overview
 
 Heart disease is the leading cause of death for people of most racial and ethnic groups in the United States, including African American, American Indian, Alaska Native, Hispanic, and white men. For women from the Pacific Islands and Asian American, American Indian, Alaska Native, and Hispanic women, heart disease is second only to cancer.
@@ -114,7 +112,4 @@ In the middle we will construct a Lambda function, which is a straightforward Py
 Lastly, the method we will use to execute the Lambda function is a new endpoint that we will create using API Gateway. This endpoint will be a url that listens for data to be sent to it. Once it gets some data it will pass that data on to the Lambda function and then return whatever the Lambda function returns. Essentially it will act as an interface that lets our web app communicate with the Lambda function.
 
 
-## H) Instructions
-Everything has been explained and summarized in the Python Notebook.  
-I have made an Android App - [Salveo](https://github.com/reallyinvincible/Salveo) that goes with this model.
 <br>
